@@ -40,7 +40,6 @@
     color: black;
     font-size: 25px;
     border-bottom: 1px solid orange;
-    margin: 10px;
     text-decoration: none;
 }
 
@@ -84,4 +83,28 @@ h2  {
 
 .about  {
     font-family: 'Raleway', sans-serif;
+}
+
+@media(max-width: 750px)    {
+    .footer-blurb   {
+        text-align: left;
+    }
+}
+
+.modal  {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 span {
+    color: #dddddd;
+    font-family: 'Raleway', sans-serif;
+}
+
+::selection{
+    background-color: #f84342;
+}
+
+html    {
+    margin-top: 0px;
+    margin: 10px;
 }
